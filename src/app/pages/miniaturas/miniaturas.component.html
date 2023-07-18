@@ -1,0 +1,12 @@
+<div class="container py-5">
+    <div class="row py-4 text-center">
+        <p class="h1">MINIATURAS</p>
+    </div>
+    <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-4" *ngFor="let imagePath of imagesPaths">
+            <div class="image-container">
+                <img [src]="imagePath" alt="Image" class="fit-image">
+            </div>
+        </div>
+    </div>
+</div>
